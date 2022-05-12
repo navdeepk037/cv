@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>
+        contact details
+    </h1>
+    <p>
+        My fictional address
+    </p>
+    <p>
+        345483628223
+    </p>
+    <p>
+        myemail@gmail.com
+    </p>
+    <hr>
+    <form method="post" action="mailto:info@londonappbrewery.com">
+        <div>
+            <label for="myname">
+                Your name:
+            </label>
+            <input type="text" id="myname" required>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+        <label for="myemail">Your email:</label>
+        <input type="email" id="myemail" required>
+        </div>
+        <br>
+        <div>
+            select the date
+            <input type="date">
+        </div>
+        <div>
+            agree to the terms and conditions
+            <input type="checkbox">
+        </div>
+        <div>
+            <label for="mymsg">
+                Type your message
+            </label>
+            <textarea name="mymsg" id="mymsg" rows="10" columns="10">
+
+            </textarea>
+        </div>
+
+        <input type="submit" value="submit">
+        
+    </form>
+</body>
+</html>
